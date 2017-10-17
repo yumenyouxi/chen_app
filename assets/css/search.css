@@ -1,0 +1,34 @@
+.search{
+	padding-top:45px;
+}
+.search .search-records{
+	overflow: hidden;
+	border-top:1px solid #ccc;
+	
+	width:100%;
+}
+.search .search-less{
+	padding: 0 5%;
+	width:90%;
+}
+.search .search-less>div:nth-child(1){
+	width:30px;
+	height:30px;
+	margin:10px 0;
+	padding-right: 10px;
+}
+.search .search-less>div:nth-child(2){
+	width: calc( 100% - 50px);
+	line-height:50px;
+}
+.search .records>div:nth-child(1){
+	font-size:18px;
+	float:left;
+}
+.search .records>div:nth-child(2){
+	font-size: 35px;
+	color: #ccc;
+	float:right;
+	line-height:50px;
+
+}

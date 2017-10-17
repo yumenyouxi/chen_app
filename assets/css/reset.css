@@ -1,0 +1,112 @@
+html,body{
+  height:100%;
+}
+body{
+	margin:0 auto;
+	padding:0;
+	max-width:1366px;
+}
+h1,h2,h3,h4,h5,h6,ul,li,ol,input,img,p,textarea{
+	margin:0;
+	padding:0;
+}
+ul,li,ol{
+	list-style:none;
+}
+a,a:hover{
+	text-decoration:none;
+}
+input,textarea{
+	outline:none;
+}
+span,i,a{
+	display:inline-block;
+}
+img{
+	width: 100%;
+	height: auto;
+	display:block;
+}
+a{
+	color:#000;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+table{
+  border-collapse: collapse;
+}
+a:active,a:hover,a:visited{
+  background-color:transparent !important; 
+}
+.pf{
+	position: fixed;
+	top:0;
+	right: 0;
+}
+.nav-top{
+  width:100%;
+  min-width:320px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
+}
+ 
+/*共有的下导航条*/
+
+.view{
+  transition: all .2s linear;
+  width: 100%;
+  position: relative;
+
+}
+/*旧路由离开*/
+.view.ng-leave {
+  left: 0;
+  opacity: 1;
+  display: none;
+}
+.view.ng-leave.ng-leave-active {
+  left: -100%;
+  opacity: 0;
+  display: none;
+}
+
+/*新路由进入*/
+.view.ng-enter {
+  left: 100%;
+  opacity: 0;
+}
+.view.ng-enter.ng-enter-active {
+  left: 0;
+  opacity: 1;
+}.view{
+  transition: all .2s linear;
+  width: 100%;
+  position: relative;
+}
+/*旧路由离开*/
+.view.ng-leave {
+  left: 0;
+  opacity: 1;
+  display: none;
+}
+.view.ng-leave.ng-leave-active {
+  left: -100%;
+  opacity: 0;
+  display: none;
+}
+
+/*新路由进入*/
+.view.ng-enter {
+  left: 100%;
+  opacity: 0;
+}
+.view.ng-enter.ng-enter-active {
+  left: 0;
+  opacity: 1;
+}

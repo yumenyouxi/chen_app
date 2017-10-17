@@ -1,0 +1,47 @@
+.footer .bottom-nav{
+	width: 100%;
+	position: fixed;
+	bottom:0;
+	left:0;
+	background-color: #fff;
+	box-shadow:0px -5px 10px #c6c5c5;
+	z-index: 999;
+	height:50px;
+}
+.footer .bottom-nav>ul{
+	overflow: hidden;
+}
+.footer .bottom-nav>ul>li{
+	float: left;
+	width: 20%;
+	height: 40px;
+	margin: 5px 2.5%;
+	text-align: center;
+	position: relative;
+	min-width: 60px;
+	 
+}
+.footer .middle>div{
+	width: 30%;
+	margin: 0 auto;
+	max-width: 25px;
+	
+}
+.footer .middle>p{
+	font-size: 12px;
+	padding-top: 3px;
+	color: #646464;
+	margin:0 auto;
+}
+.footer .middle{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left:0;
+	transform: translateY(-50%);
+	margin: 0 auto;
+   
+}
+.footer .active-nav p{
+	color: #a84458;
+}

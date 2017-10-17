@@ -1,0 +1,84 @@
+.register .nav-top{
+	width:100%;
+	background-color: #fff;
+	min-width:320px;
+	overflow:hidden;
+}
+.register .nav-top>div{
+	margin:0 15px;
+	height:45px;
+	position:relative;
+}
+.register .nav-top>div>div{
+	position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.register .nav-text{
+	width:83%;
+	left:0;
+	right:0;
+	margin:0 auto;
+	text-align:center;
+	font-size:22px;
+	color:#000;
+}
+.register .nav-left{
+	width:4%;
+	max-width:15px;
+	left:0px;	
+}
+.register .nav-right{
+	width:20%;
+	font-size:20px;
+	text-align:right;
+	right:0px;	
+}
+.register .nav-right>a{
+	color: #000;
+}
+.register .register-box{
+	padding:0 15px;
+}
+.register .register-box>div{
+	overflow: hidden;
+	border-top:1px solid #ccc;
+
+}
+.register .register-box>div>div{
+	float:left;
+	font-size: 22px;
+	text-align: left;
+	line-height: 50px;
+}
+.register .register-text{
+	width: 85px;
+}
+.register .input{
+	width:calc(100% - 85px);
+}
+.register .input>input[type="text"]{
+	width: 100%;
+	padding-left:10px;
+	border: none;
+	height: 100%;
+	color: #000;
+	letter-spacing: 1px;
+	font-size: 22px;
+}
+.register .input>input[type="text"]::-webkit-input-placeholder{
+	color: #ccc;
+	font-size: 24px;
+}
+.register .register-box>div:nth-child(5){
+	border-top:0;
+	background-color: #98132e;
+	font-size: 22px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 30px; 
+	width:90%;
+	max-width: 900px;
+	margin:50px auto;
+	color:#fff;
+}

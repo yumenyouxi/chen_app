@@ -1,0 +1,49 @@
+<div class="friend">
+	<div class="nav-top pf">
+		<div>
+			<div class="nav-left" onClick="javascript :history.back(-1);">
+				<img src="image/nav-less-b.png">			
+			</div>
+			<div class="nav-text">
+				好友
+			</div>
+		</div>	
+	</div>
+	<div class="friend-nav">
+		<div>
+			<div class="friend-img">
+				<img src="image/new_user@3x.png">
+			</div>
+			<div class="friend-text">新的好友</div>
+		</div>
+	</div>
+	<div id="move" class="relative">
+		<div id="moveleft" class="message-box">
+			<div class="message-less-img fl">
+				<img src="image/account-head.png">
+			</div>
+			<ul class="matter fl">
+				<li>版本</li>
+				<li>最近分享了一条购物信息</li>
+			</ul>
+
+			<div class="delete"><span>取消</span><span>备注</span></div>
+
+			<ul class="matter-num fr">
+				<li>13:07</li>
+				<li>1</li>
+			</ul>	
+		</div>
+	</div>
+	<script type="text/javascript">
+	 $(".matter").click(function(){
+	 	if($(this).parent(".message-box").hasClass("right")){
+	 		$(this).parent(".message-box").removeClass("right");
+	 	}else{
+	 		$(this).parent(".message-box").addClass("right");
+	 	}
+	 	
+	 })
+	</script>
+</div> 
+		

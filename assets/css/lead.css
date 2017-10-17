@@ -1,0 +1,17 @@
+html,body{
+	height: 100%
+}
+.lead{
+	height:100%;
+}
+.bodylead{
+	position:relative;
+}
+.button{
+	position: absolute;
+	bottom:12%;
+	left:0;
+	right:0;
+	width:60%;
+	margin:0 auto;
+}

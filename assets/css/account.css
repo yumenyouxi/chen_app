@@ -1,0 +1,124 @@
+
+.account {
+	padding-bottom:70px;
+}
+.account .nav-bg{
+	position:relative;
+	overflow:hidden;
+}
+.account .nav-top{
+	width:100%;
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	left: :0;
+}
+.account .nav-top>div{
+	margin:0 15px;
+	height:45px;
+	position:relative;
+}
+.account .nav-top>div>div{
+	position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.account .nav-left{
+	width:8%;
+	max-width:30px;
+	left:0;	
+}
+.account .nav-right{
+	width:8%;
+	max-width:30px;
+	right:0;
+}
+.account .nav-head{
+	width:20%;
+	position:absolute;
+	top:70%;
+	transform:translateY(-70%);
+	right:0;
+	left:0;
+	margin:0 auto;
+	text-align:center;
+	font-size: 20px;
+	color: #fff;
+}
+.account .nav-head>p{
+	padding-top: 5px;
+}
+.account .my-order{
+	width:100%;
+	height:50px;
+	border-top:1px solid #d0ccc7;
+	border-bottom:1px solid #d0ccc7;
+}
+.account .my-order-text{
+	line-height: 50px;
+	font-size:16px;
+	padding-left: 5%;
+	width:calc(90% - 15px);
+}
+.account .my-order-text>a{
+	width: 100%;
+}
+.account .my-order-img{
+	width: 10px;
+	height: 20px;
+	margin: 15px 0;
+	padding-right: 5%;
+}
+
+.account .my-tool{
+	border-top:1px solid #d0ccc7;
+	border-bottom:1px solid #d0ccc7;
+}
+.account .my-tool>ul{
+	overflow:hidden;
+	padding:10px 0;
+	height:65px;
+}
+.account .my-tool>ul>li{
+	float: left;
+	width:15.2%;
+	height:65px;
+}
+.account .my-tool li:nth-child(odd){
+	padding:0 4%;
+}
+.account .my-tool-link{
+	width:100%;
+	height:65px;
+	position:relative;
+	font-size:12px;
+	color:#000;
+	text-align:center;
+}
+.account .my-tool-mediate{
+	width:75%;
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	margin:0 10%;
+}
+.account .my-tool-img{
+	width:70%;
+	max-width:40px;
+	margin:0 auto;
+	padding-bottom: 5px;
+	position: relative;
+}
+.account .my-tool-index{
+	width:15px;
+	height:15px;
+	border-radius: 50%;
+	font-size:12px;
+	background-color: #fff;
+	color:#98312e;
+	text-align:center;
+	border: 2px solid #98312e;
+	position:absolute;
+	top:-7.5px;
+	right:-7.5px;
+}

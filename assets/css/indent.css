@@ -1,0 +1,200 @@
+
+html,body{
+	height: 100%;
+}
+.indent{
+	padding-top:45px;
+	padding-bottom:70px;
+}
+.indent .nav-top{
+	background-color: #fff;
+}
+.indent .nav-top>div{
+	margin:0 15px;
+	height:45px;
+	position:relative;
+}
+.indent .nav-top>div>div{
+	position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.indent .nav-text{
+	width:84%;
+	left:0;
+	right:0;
+	margin:0 auto;
+	text-align:center;
+	font-size:20px;
+	color:#000;
+}
+.indent .nav-left{
+	width:3.8%;
+	max-width:16px;
+	left:0;	
+}
+.indent .nav-right{
+	width:7%;
+	max-width:30px;
+	right:0;
+}
+
+.indent .indent-head{
+	position:relative;
+	border-top: 1px solid #d0ccc7;
+	border-bottom: 1px solid #d0ccc7;
+	height: 60px;
+}
+.indent .indent-head-text{
+	padding:5px 4%;
+	width:84%;
+	font-size:16px;
+	position:absolute;
+	left:0;
+	top: 50%;
+	transform:translateY(-50%);
+}
+.indent .indent-head-text>P>.text-ar{
+	float:right;
+	text-align:right;
+}
+.indent .indent-head-text>P:nth-child(2){
+	color:#6c6c6c;
+	font-size:14px;
+}
+.indent .indent-head-img{
+	width:3.4%;
+	max-width:16px;
+	position:absolute;
+	right:5%;
+	top: 50%;
+	transform:translateY(-50%);
+}
+.indent .indent-body{
+	height:100%;
+	position:relative;
+	overflow:hidden;
+	border-top:1px solid #d0ccc7;
+	margin-top: 10px;
+}
+
+.indent .indent-body-img{
+	float:left;
+	width:28%;
+	padding-left:7%;
+}
+
+.indent .indent-body-text{
+	position:absolute;
+	top: 50%;
+	left:35%;
+	transform:translateY(-50%);
+	height:100%;
+	width:60%;
+}
+.indent .indent-bt{
+	height:85%;
+	bottom: 0;
+    top: 0;
+    position: absolute;
+    margin: auto 0;
+}
+
+.indent .indent-bt>div:nth-child(1){
+	height:40%;
+	width:100%;
+	font-size:16px;
+}
+.indent .indent-bt>div:nth-child(2){
+	position:relative;
+	height:60%;
+	width:100%;
+	font-size:14px;
+}
+.indent .indent-btl{
+	line-height:180%;
+	position:absolute;
+	bottom: 0;
+}
+.indent .indent-btl>p:nth-child(1){
+	color:#878787;
+	font-size:13px;
+}
+.indent .indent-btl>p:nth-child(2){
+	color:#98312E;
+	font-size:13px;
+}
+.indent .indent-num{
+	position:absolute;
+	bottom:0;
+	right:5%;
+	font-size:20px;
+}
+.indent .indent-text-box{
+	border-top:1px solid #d0ccc7;	
+}
+.indent .indent-text{
+	overflow:hidden;
+	padding-right: 5%;
+}
+.indent .indent-text>span{
+	float:right;
+	line-height:90px;
+	text-align:left;
+	font-size:20px;
+}
+.indent .indent-text>span:nth-child(1){
+	color:#98312e;
+}
+.indent .indent-list{
+	height:60px;
+	position:relative;
+	margin:0 6% 0 5%;
+}
+
+.indent .indent-list>div:nth-child(1){
+	font-size:20px;
+	line-height:60px;
+	text-align:left;
+}
+.indent .indent-list>div:nth-child(2){
+	width:3.5%;
+	max-width:20px;
+	position:absolute;
+	top:50%;
+	right:0;
+	transform:translateY(-50%);
+}
+.indent .indent-list>div:nth-child(3){
+	position:absolute;
+	top:50%;
+	right:8%;
+	transform:translateY(-50%);
+}
+.indent .indent-list>div:nth-child(3)>span:nth-child(2){
+	color:#98132e;
+}
+.indent .indent-text-end{
+	width:100%;
+	overflow:hidden;
+	position: fixed;
+	bottom: 0;
+	right:0;
+	z-index: 999;
+	background-color: #fff;
+}
+.indent .indent-text-end>span{
+	float:right;
+	line-height:50px;
+	text-align:left;
+	font-size:20px;
+}
+.indent .indent-text-end>span:nth-child(2){
+	color:#98312e;
+}
+.indent .indent-text-end>span:nth-child(1){
+	width: 30%;
+	text-align:center;
+	background-color:#98132e;
+	color:#fff;
+}

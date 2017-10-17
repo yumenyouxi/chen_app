@@ -1,0 +1,97 @@
+<div class="shopping">
+	<div class="nav-top">
+		<div>
+			<div class="nav-left">
+				<div ng-click="goOther('set-up');">
+					<img src="image/nav-set.png">
+				</div>			
+			</div>
+			<div class="nav-text">
+				购物车
+			</div>
+			<div class="nav-right">
+				<div ng-click="goOther('searchNav.search');">
+					<img src="image/nav-search.png">
+				</div>	
+			</div>
+		</div>	
+	</div>
+	<div>
+		<div class="shopping-box">
+			<div>
+				<div class="sbox-lfet">
+					<div class="img-less">
+						<img src="image/shopping-yex.png">
+					</div>
+					<div class="img-big">
+						<img src="image/shopping1.png">
+					</div>
+					<div class="sbox-text">
+						<ul>
+							<li>棉珠地网眼宽版POLO衫</li>
+							<li>
+								<div class="price-box">
+									<p class="price-old">¥178.00</p>
+									<p class="price">¥160.00</p>
+								</div>
+								<div class="num">
+									<span>-</span>
+									<input type="text" name="" value="1">
+									<span>+</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="sbox-right"><span>删除</span></div>
+			</div>
+		</div>
+		<div class="shopping-box">
+			<div>
+				<div class="sbox-lfet">
+					<div class="img-less">
+						<img src="image/shopping-no.png">
+					</div>
+					<div class="img-big">
+						<img src="image/shopping2.png">
+					</div>
+					<div class="sbox-text">
+						<ul>
+							<li>棉珠地网眼宽版POLO衫</li>
+							<li>
+								<div class="price-box">
+									<p class="price-new">新品</p>
+									<p class="price">¥160.00</p>
+								</div>
+								<div class="num">
+									<span>-</span>
+									<input type="text" name="" value="1">
+									<span>+</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="sbox-right"><span>删除</span></div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(".sbox-right").click(function(){
+				$(this).parents(".shopping-box").remove(".shopping-box");
+			})
+		</script>
+	</div>	
+	<div class="nav-account">
+		<div class="nav-account-left">
+			<div>
+				<img src="image/shopping-no.png">
+			</div>
+			<div>全选</div>
+		</div>
+		<div class="nav-account-middle">
+			<p><span>合计：</span><span class="nav-1">¥160.00</span></p>
+			<p class="nav-2">不含运费</p>
+		</div>
+		<div class="nav-account-right" ng-click="goOther('indent')">结算</div>
+	</div>
+</div>
